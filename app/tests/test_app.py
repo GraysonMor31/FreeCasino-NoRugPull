@@ -1,4 +1,4 @@
-from server.app import create_app
+from app.server.app import create_app
 
 def test_root_route():
     app = create_app()
